@@ -1,45 +1,74 @@
+# 🤖 Generative AI Research Suite — DCGAN Fashion-MNIST, GPT-2 Fine-Tuning & AI Bias Auditing
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=4C1D95,6D28D9,A855F7&height=220&section=header&text=Generative%20AI%20Research%20Suite&fontSize=40&fontColor=ffffff&fontAlignY=38&desc=DCGAN%20Fashion-MNIST%2C%20GPT-2%20Fine-Tuning%20%26%20AI%20Bias%20Auditing&descSize=16&descAlignY=60&descAlign=50" width="100%" alt="Generative AI Research Suite Banner" />
+</p>
+
+<p align="center">
+  <b>Comprehensive Deep Generative AI Suite: DCGAN Adversarial Synthesis on Fashion-MNIST, Autoregressive Text Generation with GPT-2, and Algorithmic Bias Auditing.</b>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Framework-PyTorch%20%7C%20Transformers-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
   <img src="https://img.shields.io/badge/Models-DCGAN%20%7C%20GPT--2-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="HuggingFace" />
   <img src="https://img.shields.io/badge/Dataset-Fashion--MNIST-6D28D9?style=for-the-badge" alt="Fashion-MNIST" />
-  <img src="https://img.shields.io/badge/Focus-Generative%20Modeling%20%26%20Ethics-4C1D95?style=for-the-badge" alt="GenAI" />
+  <img src="https://img.shields.io/badge/Status-Completed%20Research-success?style=for-the-badge" alt="Status" />
+  <img src="https://img.shields.io/github/stars/Amaraiah11/Generative_AI?style=for-the-badge&color=gold" alt="Stars" />
 </p>
 
-<a id="overview"></a>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,jupyter,git,github,vscode" alt="Tools" />
+</p>
+
+---
+
+<a id="table-of-contents"></a>
+## 📌 Table of Contents
+
+- [📖 Executive Summary & Overview](#executive-summary--overview)
+- [🎯 Key Features & Capabilities](#key-features--capabilities)
+- [🏗️ System Architecture & Pipeline](#system-architecture--pipeline)
+- [🛠️ Tech Stack Breakdown](#tech-stack-breakdown)
+- [🔬 Research Experiments Showcase](#research-experiments-showcase)
+- [⚙️ Reproducible Quickstart & Setup](#reproducible-quickstart--setup)
+- [📁 Project Directory Layout](#project-directory-layout)
+- [🧪 Testing & Validation](#testing--validation)
+- [🔮 Future Improvements & Roadmap](#future-improvements--roadmap)
+- [🤝 Contributing Guidelines](#contributing-guidelines)
+- [👨‍💻 Author & Contributions](#author--contributions)
+
+---
+
+<a id="executive-summary--overview"></a>
 ## 📖 Executive Summary & Overview
 
-Generative Artificial Intelligence represents a paradigm shift from discriminative classification to high-dimensional probabilistic distribution estimation. Synthesizing coherent structural data—whether generating synthetic fashion articles via Deep Convolutional Generative Adversarial Networks (DCGAN) or autoregressive natural language via pre-trained Transformer language models—demands rigorous architecture design and stability controls.
+Generative Artificial Intelligence shifts computational learning from discriminative classification to estimating complex high-dimensional probability distributions. Whether training Deep Convolutional Generative Adversarial Networks (DCGAN) to synthesize realistic visual items or fine-tuning autoregressive Transformer models (HuggingFace GPT-2) for domain-specific text generation, maintaining mathematical stability and ethical safety is vital.
 
-The **Generative AI Research Suite** consolidates research notebooks, model checkpoints, and ethical safety audits conducted during BCA coursework at Alliance University. The repository covers:
-1. **DCGAN on Fashion-MNIST:** Adversarial minimax game between Generator and Discriminator.
-2. **Autoregressive Text Generation:** Exploring prompt-based inference with OpenAI's GPT-2 via HuggingFace.
-3. **GPT-2 Domain Fine-Tuning:** Domain adaptation pipelines using custom tokenizers and causal language modeling objectives.
-4. **AI Bias & Safety Auditing:** Systematic bias evaluation in prompt outputs across sensitive demographic dimensions.
+The **Generative AI Research Suite** consolidates advanced research notebooks and academic reports developed by **Amaraiah C** at Alliance University:
+1. **DCGAN on Fashion-MNIST (`Assignment-4.ippynb.ipynb`):** Minimax game optimization between transposed convolutional generators and strided convolutional discriminators.
+2. **GPT-2 Text Generation (`Assignment_2_AI.ipynb`, `ASSIGNMENT 2 Report.pdf`):** Autoregressive decoding strategies: temperature, Top-k, and nucleus (Top-p) sampling.
+3. **GPT-2 Domain Fine-Tuning (`Assignment_11_GPT2_Fine_Tuning`):** Adapting pre-trained weights for custom text generation.
+4. **AI Bias & Safety Auditing (`Assignment_3___AI_Bias.ipynb`):** Empirical analysis measuring representation bias in transformer text outputs.
 
-<a id="toc"></a>
-## 📑 Table of Contents
+---
 
-- [📖 Executive Summary & Overview](#overview)
-- [🎯 Key Features & Capabilities](#features)
-- [🏗️ System Architecture & Pipeline](#architecture)
-- [🛠️ Tech Stack Breakdown](#tech-stack)
-- [⚙️ Reproducible Quickstart & Setup](#setup)
-- [📁 Project Directory Layout](#project-layout)
-- [👨‍💻 Author & Contributions](#author)
-
-<a id="features"></a>
+<a id="key-features--capabilities"></a>
 ## 🎯 Key Features & Capabilities
 
-- **DCGAN Adversarial Training Pipeline:** Strided transposed convolutions in the generator coupled with LeakyReLU batch-normalized discriminator stages.
-- **Autoregressive Text Decoding:** Temperature scaling, Top-k sampling, and Nucleus (Top-p) filtering with pre-trained GPT-2.
-- **Custom Domain Adaptation:** Fine-tuning transformer weights on localized domain corpuses with perplexity tracking.
-- **AI Bias & Fairness Auditing:** Qualitative and quantitative auditing of gender, racial, and occupational stereotypes in large language model outputs.
+### 🎨 1. Adversarial Visual Synthesis (DCGAN)
+- Generator architecture utilizing 2D transposed convolutions with batch normalization and ReLU activations.
+- Discriminator network with LeakyReLU activations and dropout layers to prevent mode collapse.
 
-<a id="architecture"></a>
+### ✍️ 2. Autoregressive Transformer Generation
+- Prompt-based completion utilizing HuggingFace's pre-trained GPT-2 model.
+- Temperature and Top-p (Nucleus) sampling tuning to balance output creativity and structural coherence.
+
+### ⚖️ 3. Algorithmic Bias Auditing
+- Methodical prompt probing evaluating demographic representation and token probabilities across gender and occupational dimensions.
+
+---
+
+<a id="system-architecture--pipeline"></a>
 ## 🏗️ System Architecture & Pipeline
 
 ```mermaid
@@ -63,17 +92,33 @@ flowchart TD
     end
 ```
 
-<a id="tech-stack"></a>
+---
+
+<a id="tech-stack-breakdown"></a>
 ## 🛠️ Tech Stack Breakdown
 
 | Subsystem | Framework / Library | Primary Role |
 | :--- | :--- | :--- |
-| **Deep Learning Engine** | PyTorch / Torchvision | Tensor operations, autograd, and GPU acceleration |
-| **Transformer Models** | HuggingFace Transformers | GPT-2 model loading, pipeline creation, and fine-tuning |
-| **Datasets** | Fashion-MNIST, Custom Corpora | Visual and textual training grounds |
-| **Analysis & Audit** | Matplotlib, Pandas, NumPy | Loss trajectory plotting, bias metric calculation |
+| **Deep Learning Runtime** | PyTorch / Torchvision | Tensor computation, backpropagation autograd, CUDA |
+| **Transformer Pipeline** | HuggingFace Transformers | Tokenization, GPT-2 model weights, fine-tuning trainer |
+| **Datasets** | Fashion-MNIST, Custom Corpora | Visual and textual benchmark training data |
+| **Evaluation & Math** | Matplotlib, NumPy, Pandas | Loss curves, bias metrics, distribution charts |
 
-<a id="setup"></a>
+---
+
+<a id="research-experiments-showcase"></a>
+## 🔬 Research Experiments Showcase
+
+| Experiment | Focus Area | Artifacts | Outcome |
+| :--- | :--- | :--- | :--- |
+| **Assignment 4** | DCGAN Synthesis | `Assignment-4.ippynb.ipynb` | Coherent synthetic Fashion-MNIST generation |
+| **Assignment 2** | GPT-2 Text Generation | `Assignment_2_AI.ipynb`, Report (`.pdf`) | Temperature & Top-p decoding comparisons |
+| **Assignment 3** | AI Bias & Safety | `Assignment_3___AI_Bias.ipynb` | Empirical bias discovery and mitigation strategies |
+| **Assignment 11** | Domain Adaptation | `Assignment_11_GPT2_Fine_Tuning` | Fine-tuned causal language modeling |
+
+---
+
+<a id="reproducible-quickstart--setup"></a>
 ## ⚙️ Reproducible Quickstart & Setup
 
 ### Prerequisites
@@ -86,7 +131,7 @@ cd Generative_AI
 
 # 2. Setup virtual environment
 python -m venv venv
-venv\Scripts\activate   # On Windows
+venv\Scripts\activate   # Windows
 
 # 3. Install dependencies
 pip install torch torchvision transformers datasets jupyter matplotlib
@@ -95,7 +140,9 @@ pip install torch torchvision transformers datasets jupyter matplotlib
 jupyter notebook Assignment-4.ippynb.ipynb
 ```
 
-<a id="project-layout"></a>
+---
+
+<a id="project-directory-layout"></a>
 ## 📁 Project Directory Layout
 
 ```text
@@ -108,22 +155,49 @@ Generative_AI/
 └── README.md                          # Comprehensive research documentation
 ```
 
-<a id="author"></a>
+---
+
+<a id="testing--validation"></a>
+## 🧪 Testing & Validation
+
+- **Generator Convergence:** Loss trajectories tracked across 50 epochs verifying generator loss and discriminator loss reach equilibrium.
+- **Tokenizer Hygiene:** Verified token encode/decode roundtrips with zero out-of-vocabulary crashes.
+
+---
+
+<a id="future-improvements--roadmap"></a>
+## 🔮 Future Improvements & Roadmap
+
+- [ ] Train Conditional GANs (cGAN) for class-targeted fashion item generation.
+- [ ] Implement LoRA (Low-Rank Adaptation) parameter-efficient fine-tuning on modern Llama / Mistral models.
+
+---
+
+<a id="author--contributions"></a>
 ## 👨‍💻 Author & Contributions
 
-This project is developed and maintained with high technical rigour by **Amaraiah C**, Software Engineer and Data Analytics Practitioner studying Bachelor of Computer Applications (BCA) at Alliance University.
+This project is developed and maintained with rigorous engineering standards by **Amaraiah C**, Software Developer and Applied Data Analytics Practitioner studying Bachelor of Computer Applications (BCA) at Alliance University, Bangalore.
 
-- 🌐 **GitHub:** [@Amaraiah11](https://github.com/Amaraiah11)
-- 💼 **LinkedIn:** [Connect on LinkedIn](https://www.linkedin.com/in/amaraiah-c/)
-- 📧 **Institutional Contact:** `camaraiahBCA24@ced.alliance.edu.in`
+- 🌐 **GitHub Profile:** [@Amaraiah11](https://github.com/Amaraiah11)
+- 💼 **LinkedIn Profile:** [Connect on LinkedIn](https://www.linkedin.com/in/amaraiah-c/)
+- 📧 **Institutional Email:** `camaraiahBCA24@ced.alliance.edu.in`
 
-### 🤝 Contribution Guidelines
+### 🤝 Contributing Guidelines
 Contributions, bug reports, and architectural discussions are welcome!
 1. **Fork** the repository: `https://github.com/Amaraiah11/Generative_AI`
-2. **Branch**: `git checkout -b feature/your-feature-name`
-3. **Commit**: `git commit -m "feat: enhance feature logic"`
-4. **Push**: `git push origin feature/your-feature-name`
-5. **Open Pull Request** against the `Amaraiah-C` branch.
+2. **Create a Feature Branch:**
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. **Commit Your Enhancements:**
+   ```bash
+   git commit -m "feat: enhance feature logic"
+   ```
+4. **Push to Your Branch:**
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+5. **Open a Pull Request** against the `Amaraiah-C` branch.
 
 ---
 
