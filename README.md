@@ -1,7 +1,7 @@
 # 🤖 Generative AI Research Suite — DCGAN Fashion-MNIST, GPT-2 Fine-Tuning & AI Bias Auditing
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=4C1D95,6D28D9,A855F7&height=220&section=header&text=Generative%20AI%20Research%20Suite&fontSize=40&fontColor=ffffff&fontAlignY=38&desc=DCGAN%20Fashion-MNIST%2C%20GPT-2%20Fine-Tuning%20%26%20AI%20Bias%20Auditing&descSize=16&descAlignY=60&descAlign=50" width="100%" alt="Generative AI Research Suite Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4C1D95,50:6D28D9,100:A855F7&customColorList=4C1D95,6D28D9,A855F7&height=220&section=header&text=Generative%20AI%20Research%20Suite&fontSize=38&fontColor=ffffff&fontAlignY=38&desc=DCGAN%20Fashion-MNIST%2C%20GPT-2%20Fine-Tuning%20%26%20AI%20Bias%20Auditing&descSize=15&descAlignY=60&descAlign=50" width="100%" alt="Generative AI Research Suite Banner" />
 </p>
 
 <p align="center">
@@ -206,5 +206,5 @@ Contributions, bug reports, and architectural discussions are welcome!
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=4C1D95,6D28D9,A855F7&height=100&section=footer" width="100%" alt="Footer Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4C1D95,50:6D28D9,100:A855F7&customColorList=4C1D95,6D28D9,A855F7&height=100&section=footer" width="100%" alt="Footer Banner" />
 </p>
